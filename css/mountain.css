@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    background-color: rgb(12, 101, 143);
+
+}
+
+.main-container {
+    position: relative;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid wheat;
+    text-align: center;
+}
+
+.mountain {
+    display: block;
+    position: absolute;
+    width: 500px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    color: wheat;
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 5%;
+    width: 100%; 
+}
+
+.cloud1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    animation-name: cloud1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud1 {
+    0% {left: 5%; top: 10%}
+    25% {left: 6%; top: 11%}
+    50% {left: 5%; top: 9%}
+    75% {left: 5%; top: 8%;}
+    100% {left: 5%; top: 10%}
+}
