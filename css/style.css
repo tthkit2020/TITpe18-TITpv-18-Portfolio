@@ -37,6 +37,7 @@ span {
     width: 75%;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .profile img {
@@ -47,8 +48,24 @@ span {
 .skills {
     width: 75%;
     margin: 0 auto;
+    padding: 2rem 0 2rem 0; /*top right bottom left*/
 }
 
 .skills img {
-    width: 150px;
+    width: 100px;
+}
+
+.skills-row {
+    width: 75%;
+    margin: 2rem auto 5rem auto;
+}
+
+.skills-image1 {
+    float: left;
+    margin-right: 2rem;
+}
+
+.skills-image2 {
+    float: right;
+    margin-left: 2rem;
 }
